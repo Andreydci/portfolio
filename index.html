@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Sketch Portfolio</title>
+  <link rel="icon" href="favicon/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hi there1</h1>
+  <div class="language-selector">
+    <label for="language">🌐</label>
+    <select id="language">
+      <option value="en">English</option>
+      <option value="de">Deutsch</option>
+    </select>
+  </div>
+
+  <header>
+  <div class="header-content">
+    <img src="/images/me pencil drawn.png" alt="Photo of me" class="profile-image" />
+    <div class="text-block">
+      <h1 id="intro-title">👋 Hi, I'm [Your Name]</h1>
+      <p class="tagline" id="intro-tagline">Web Developer with a Sketchy Touch</p>
+    </div>
+  </div>
+</header>
+
+
+  <section id="about">
+    <h2 id="about-title">🖊️ About Me</h2>
+    <p id="about-text">I love building websites with a creative twist. I use HTML, CSS, JavaScript, React, and Bootstrap to bring ideas to life.</p>
+  </section>
+
+  <section id="skills">
+    <h2 id="skills-title">🛠️ Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Bootstrap</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2 id="projects-title">📁 Projects</h2>
+    <div class="project-card">
+      <h3 id="project1-title">🎨 Sketch Portfolio</h3>
+      <p id="project1-desc">A portfolio site inspired by hand-drawn notebook styles.</p>
+    </div>
+    <div class="project-card">
+      <h3 id="project2-title">📰 Blog Site</h3>
+      <p id="project2-desc">Responsive blog using React and Bootstrap.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 id="contact-title">📬 Contact</h2>
+    <p id="contact-text">Email: <a href="mailto:you@example.com">you@example.com</a></p>
+  </section>
+
+  <footer>
+    <p id="footer-text">&copy; 2025 [Your Name]</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
