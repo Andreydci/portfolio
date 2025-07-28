@@ -141,14 +141,12 @@ select {
 }
 
 .social-links img {
-  border: 2px dashed #000;
-  border-radius: 50%;
-  padding: 4px;
-  background-color: #fffbe7;
-  transition: transform 0.2s ease;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
 }
 
 .social-links img:hover {
   filter: none;
-  transform: scale(1.1);
+  transform: scale(1.5);
 }

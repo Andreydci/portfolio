@@ -1,9 +1,12 @@
 const translations = {
   en: {
     introTitle: "👋 Hi, I'm Andrey",
-    introTagline: "Web Developer with a Sketchy Touch from Leipzig Germany",
+    introTagline: `I'm glad you're here. I'm a web developer who strives to create more than just beautiful websites: I develop digital solutions that bring your personality, your brand, and your target audience to life.<br>
+    Whether you're just starting out or want to redesign your existing website, I'll help you bring your ideas to life. Creative. Reliable. Individual. Feel free to take a look around or contact me directly!`,
     aboutTitle: "🖊️ About Me",
-    aboutText: "I love building websites with a creative twist. I use HTML, CSS, JavaScript, React, and Bootstrap to bring ideas to life.",
+    aboutText: `I love building websites with a creative twist. I use HTML, CSS, JavaScript, React, and Bootstrap to bring ideas to life. As a web developer, I combine modern technology with a keen sense of design. For me, every website is a project with character – because no two clients, no two companies, and no two target groups are the same. I work with various tools, frameworks, and CMS systems to find the perfect solution for you. What's important to me: custom design, clear communication, and a website that not only works, but has an impact.<br>
+    Think creatively. Implement in a structured way. Become visible together.`,
+
     skillsTitle: "🛠️ Skills",
     projectsTitle: "📁 Projects",
     project1Title: "🎨 Sketch Portfolio",
