@@ -18,7 +18,7 @@ const translations = {
   },
   de: {
     introTitle: "👋 Hallo, ich bin Andrey",
-    introTagline: "Webentwickler mit einem skizzenhaften Stil aus Leipzig, Deutschland",
+    introTagline: "Webentwickler mit einem skizzenhaften Touch aus Leipzig, Deutschland",
     aboutTitle: "🖊️ Über Mich",
     aboutText: "Ich liebe es, kreative Websites zu bauen. Ich nutze HTML, CSS, JavaScript, React und Bootstrap, um Ideen zum Leben zu erwecken.",
     skillsTitle: "🛠️ Fähigkeiten",
