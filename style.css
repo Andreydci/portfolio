@@ -96,6 +96,38 @@ select {
   flex: 1;
 }
 
+/* === Hidden extra tagline text reveal === */
+#intro-more {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  font-size: 0.9rem;         /* smaller text */
+  line-height: 1.4;          /* tighter spacing */
+  transition: max-height 2s ease, opacity 2s ease;
+}
+
+#intro-tagline:hover #intro-more {
+  max-height: 500px;         /* reduce height if less space needed */
+  opacity: 1;
+}
+
+#about-more {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #555;
+  transition: max-height 2s ease, opacity 2s ease;
+}
+
+#about-text:hover #about-more {
+  max-height: 1000px;
+  opacity: 1;
+}
+
 /* Skills with Icons */
 .skills-container {
   display: flex;
@@ -159,7 +191,6 @@ select {
   color: black;
   text-decoration: none;
 }
-
 
 /* Project Icons */
 .project-icon {
