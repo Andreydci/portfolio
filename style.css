@@ -141,15 +141,20 @@ select {
 }
 
 .social-links img {
-  width: 24px;
-  height: 24px;
-  fill: currentColor;
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  filter: grayscale(100%);
+  transition: transform 0.2s ease;
+  color: black;
 }
 
 .social-links img:hover {
   filter: none;
   transform: scale(1.5);
+  filter: grayscale(100%);
 }
+
 
 
 /* Project Icons */
@@ -158,4 +163,31 @@ select {
   height: 24px;
   vertical-align: middle;
   margin-right: 8px;
+}
+
+/* Services */
+#services {
+  padding: 1.5rem 1rem;
+  margin: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#services-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.services-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-list li {
+  margin-bottom: 1rem;
 }
