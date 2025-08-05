@@ -96,9 +96,6 @@ select {
   flex: 1;
 }
 
-<<<<<<< Updated upstream
-=======
-/* === Hidden extra tagline text reveal === */
 #intro-more, #about-more {
   display: block;
   max-height: 0;
@@ -111,7 +108,7 @@ select {
 }
 
 #intro-tagline:hover #intro-more {
-  max-height: 500px;
+  max-height: 1000px;
   opacity: 1;
 }
 
@@ -120,8 +117,6 @@ select {
   opacity: 1;
 }
 
-
->>>>>>> Stashed changes
 /* Skills with Icons */
 .skills-container {
   display: flex;

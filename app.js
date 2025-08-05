@@ -1,11 +1,6 @@
 const translations = {
   en: {
     introTitle: "👋 Hi, I'm Andrey",
-<<<<<<< Updated upstream
-    introTagline: "Web Developer with a Sketchy Touch from Leipzig Germany",
-    aboutTitle: "🖊️ About Me",
-    aboutText: "I love building websites with a creative twist. I use HTML, CSS, JavaScript, React, and Bootstrap to bring ideas to life.",
-=======
     introVisible: "Web Developer with a Sketchy Touch from Leipzig",
     introMore: `I'm glad you're here. I'm a web developer who strives to create more than just beautiful websites: I develop digital solutions that bring your personality, your brand, and your target audience to life.<br><br>
     Whether you're just starting out or want to redesign your existing website, I'll help you bring your ideas to life. Creative. Reliable. Individual.<br><br>
@@ -15,7 +10,6 @@ const translations = {
     aboutMore: `As a web developer, I combine modern technology with a keen sense of design. For me, every website is a project with character – because no two clients, no two companies, and no two target groups are the same.<br><br>
     I work with various tools, frameworks, and CMS systems to find the perfect solution for you. What's important to me: custom design, clear communication, and a website that not only works, but has an impact.<br><br>
     Think creatively. Implement in a structured way. Become visible together.`,
->>>>>>> Stashed changes
     skillsTitle: "🛠️ Skills",
     projectsTitle: "📁 Projects",
     project1Title: "🎨 Sketch Portfolio",
@@ -23,8 +17,9 @@ const translations = {
     project2Title: "📰 Blog Site",
     project2Desc: "Responsive blog using React and Bootstrap.",
     contactTitle: "📬 Contact",
-    contactText: "Email: <a href='mailto:you@example.com'>you@example.com</a>",
+    contactText: "Email <a href='mailto:andreyshilkovjr@gmail.com'>andreyshilkovjr@gmail.com</a>",
     footerText: "© 2025 Andrey"
+    // other keys...
   },
   de: {
     introTitle: "👋 Hallo, ich bin Andrey",
@@ -41,11 +36,12 @@ const translations = {
     projectsTitle: "📁 Projekte",
     project1Title: "🎨 Skizzen-Portfolio",
     project1Desc: "Ein Portfolio im handgezeichneten Notizbuchstil.",
-    project2Title: "📰 Blog-Seite",
+    project2Title: "📰 Prima Verein",
     project2Desc: "Responsives Blog mit React und Bootstrap.",
     contactTitle: "📬 Kontakt",
-    contactText: "E-Mail: <a href='mailto:you@example.com'>you@example.com</a>",
+    contactText: "Email <a href='mailto:andreyshilkovjr@gmail.com'>andreyshilkovjr@gmail.com</a>",
     footerText: "© 2025 Andrey"
+    // other keys...
   }
 };
 
@@ -71,3 +67,4 @@ document.getElementById("language").addEventListener("change", (e) => {
   document.getElementById("contact-text").innerHTML = t.contactText;
   document.getElementById("footer-text").textContent = t.footerText;
 });
+
