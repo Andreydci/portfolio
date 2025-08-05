@@ -73,13 +73,28 @@ function applyTranslations(lang) {
   document.getElementById("skills-title").textContent = t.skillsTitle;
   document.getElementById("projects-title").textContent = t.projectsTitle;
 
-  document.getElementById("project1-title").textContent = t.project1Title;
   document.getElementById("project1-desc").textContent = t.project1Desc;
-  document.getElementById("project2-title").textContent = t.project2Title;
   document.getElementById("project2-desc").textContent = t.project2Desc;
-  if (document.getElementById("project3-title")) {
-    document.getElementById("project3-title").textContent = t.project3Title;
+  if (document.getElementById("project3-desc")) {
     document.getElementById("project3-desc").textContent = t.project3Desc;
+  }
+
+  // Project Titles: preserve <img>
+  const updateProjectTitle = (id, text) => {
+    const el = document.getElementById(id);
+    if (el && el.querySelector("img")) {
+      const img = el.querySelector("img");
+      const titleText = text.replace(/^.*?\s/, ''); // Remove emoji if needed
+      el.innerHTML = "";
+      el.appendChild(img);
+      el.append(` ${titleText}`);
+    }
+  };
+
+  updateProjectTitle("project1-title", t.project1Title);
+  updateProjectTitle("project2-title", t.project2Title);
+  if (document.getElementById("project3-title")) {
+    updateProjectTitle("project3-title", t.project3Title);
   }
 
   // Services
@@ -112,5 +127,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("language").value = defaultLang;
   applyTranslations(defaultLang);
 });
+
 
 
