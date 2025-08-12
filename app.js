@@ -24,6 +24,8 @@ I work with various tools, frameworks and CMS systems to find the perfect soluti
       "⚙️ Technical implementation & performance optimization<br/>Fast, stable, and search engine friendly"
     ],
     contactTitle: "📬 Contact",
+    cvPath: "images/lebenslaufshilkoveng.pdf",
+    cvText: "Download CV",
     contactText: "Email: <a href='mailto:andreyshilkovjr@gmail.com'>andreyshilkovjr@gmail.com</a>",
     footerText: "© 2025 Andrey"
   },
@@ -52,6 +54,8 @@ Ich arbeite mit verschiedenen Tools, Frameworks und CMS‑Systemen, um die perfe
       "⚙️ Technische Umsetzung & Performance-Optimierung<br/>Schnell, stabil und suchmaschinenfreundlich"
     ],
     contactTitle: "📬 Kontakt",
+    cvPath: "images/lebenslaufshilkovger.pdf",
+    cvText: "Lebenslauf Herunterladen",
     contactText: "E‑Mail: <a href='mailto:andreyshilkovjr@gmail.com'>andreyshilkovjr@gmail.com</a>",
     footerText: "© 2025 Andrey"
   }
@@ -111,6 +115,9 @@ function applyTranslations(lang) {
   // Contact
   document.getElementById("contact-title").textContent = t.contactTitle;
   document.getElementById("contact-text").innerHTML = t.contactText;
+  const cvLink = document.getElementById("cv-download-link");
+  cvLink.href = t.cvPath;
+  cvLink.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="${t.cvText}">${t.cvText}`;
 
   // Footer
   document.getElementById("footer-text").textContent = t.footerText;
