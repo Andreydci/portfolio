@@ -29,14 +29,14 @@ I work with various tools, frameworks and CMS systems to find the perfect soluti
   },
   de: {
     introTitle: "👋 Hallo, ich bin Andrey",
-    introVisible: "Webentwickler mit einem skizzenhaften Stil aus Leipzig",
+    introVisible: "Webentwickler mit einem sketchy Touch aus Leipzig",
     introMore: `Ich freue mich, dass du hier bist. Ich bin Webentwickler und entwickle nicht nur schöne Websites, sondern digitale Lösungen, die deine Persönlichkeit, deine Marke und deine Zielgruppe lebendig machen.<br><br>
-Egal ob du gerade erst anfängst oder deiner bestehenden Website einen neuen Anstrich geben willst – ich helfe dir dabei, deine Ideen umzusetzen. Kreativ. Zuverlässig. Individuell.<br><br>
+Egal ob du gerade erst anfängst oder deiner bestehenden Website einen neuen Anstrich geben willst – ich helfe dir dabei, deine Ideen umzusetzen.<br>Kreativ. Zuverlässig. Individuell.<br><br>
 Schau dich gern um oder kontaktiere mich direkt!`,
     aboutTitle: "🖊️ Über Mich",
     aboutVisible: "Ich liebe es, kreative Websites zu bauen...",
     aboutMore: `Als Webentwickler kombiniere ich moderne Technik mit einem Gespür für Design. Für mich ist jede Website ein Projekt mit Charakter – denn kein Kunde, kein Unternehmen und keine Zielgruppe ist wie die andere.<br><br>
-Ich arbeite mit verschiedenen Tools, Frameworks und CMS‑Systemen, um die perfekte Lösung für dich zu finden. Wichtig ist mir: individuelles Design, klare Kommunikation und eine Website, die nicht nur funktioniert, sondern wirkt.`,
+Ich arbeite mit verschiedenen Tools, Frameworks und CMS‑Systemen, um die perfekte Lösung für dich zu finden.  Mir ist es wichtig: individuelles Design, klare Kommunikation und eine Website, die nicht nur funktioniert, sondern wirkt.`,
     skillsTitle: "🛠️ Fähigkeiten & Sprachen",
     projectsTitle: "📁 Projekte",
     project1Title: "🎨 Skizzen‑Portfolio",
